@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="logo">Logo</h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <button class="btnLogin-popup">Log In</button>
+        </nav>
+    </header>
+
+
+
+    <div class="wrapper">
+        <span class="icon-close"><i class="fa-solid fa-xmark"></i></span>
+
+        <!-- Log In Box -->
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+
+                <div class="input-box">
+                    <span class="icon" name><box-icon type='solid' name='envelope'></box-icon></span>
+                    <input type="email" required class="input1" placeholder="abc@gmail.com">
+                    <Label>Email :- </Label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon" name><box-icon name='lock' type='solid'></box-icon></span>
+                    <input type="password" required class="input2" placeholder="Only 4-8 characters" minlength="4"
+                        maxlength="8">
+                    <Label>Password :- </Label>
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forget Password</a>
+                </div>
+
+                <button type="submit" class="btn">Login</button>
+
+                <div class="login-register">
+                    <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                </div>
+
+            </form>
+        </div>
+
+
+        <!-- register Box -->
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-user"></i></span>
+                    <input type="text" required class="input0" placeholder=" Enter name">
+                    <Label>Username :-</Label>
+                </div>
+                <div class="input-box">
+                    <span class="icon" name><box-icon type='solid' name='envelope'></box-icon></span>
+                    <input type="email" required class="input1" placeholder="abc@gmail.com">
+                    <Label>Email :- </Label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon" name><box-icon name='lock' type='solid'></box-icon></span>
+                    <input type="password" required class="input2" placeholder="Only 4-8 characters" minlength="4"
+                        maxlength="8">
+                    <Label>Password :- </Label>
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox">I agree to the terms & conditions</label>
+                </div>
+
+                <button type="submit" class="btn">Register</button>
+
+                <div class="login-register">
+                    <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <!-- <div class="extraspace" style="height: 100vh;"></div> -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://kit.fontawesome.com/2a23ed9334.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
